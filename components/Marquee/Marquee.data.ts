@@ -1,0 +1,1 @@
+export const marqueeText = "ADIXION FOOD • COMIDA RÁPIDA • SABOR QUE ENAMORA • CALIDAD QUE SORPRENDE • ";
