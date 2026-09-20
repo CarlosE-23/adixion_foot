@@ -49,6 +49,7 @@
 }
 
 :root {
+    color-scheme: light;
     --section-padding: clamp(3rem, 8vw, 6rem);
     --container-max: 1280px;
     --card-padding: 1.5rem;
