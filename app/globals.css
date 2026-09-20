@@ -10,7 +10,7 @@
 }
 
 @theme inline {
-    --color-primary: #e2547b;
+    --color-primary: #ff0075;
     --color-primary-light: #f472b6;
     --color-primary-dark: #8b0045;
     --color-primary-50: #fdf2f8;
@@ -19,16 +19,16 @@
     --color-primary-300: #f9a8d4;
 
     --color-background: #fce7f3;
-    --color-background-alt: #e2547b;
+    --color-background-alt: #ff0075;
     --color-background-card: #faeef8;
     --color-surface: #ffffff;
 
-    --color-text: #e2547b;
+    --color-text: #ff0075;
     --color-text-secondary: #fce7f3;
     --color-text-tertiary: #8b0045;
     --color-text-muted: #a8a29e;
 
-    --color-border: #e2547b;
+    --color-border: #ff0075;
     --color-border-light: #fce7f3;
     --color-border-dark: #8b0045;
 
