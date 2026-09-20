@@ -8,7 +8,7 @@ export function About() {
             </div>
             <div className="relative z-100 w-full flex flex-col justify-center xl:items-start gap-2 md:gap-4">
                 <h2 className="w-full text-text text-6xl md:text-7xl lg:text-9xl tracking-wider font-black font-heading">
-                    BIENBENIDOS <br className="md:hidden lg:block" /> A ADIXION
+                    BIENVENIDOS <br className="md:hidden lg:block" /> A ADIXION
                 </h2>
                 <p className="text-xl md:text-2xl text-text-tertiary font-medium font-header">
                     Desde 2025, hemos estado conquistando los corazones y
