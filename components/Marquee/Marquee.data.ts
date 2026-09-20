@@ -1,1 +1,34 @@
-export const marqueeText = "ADIXION FOOD • COMIDA RÁPIDA • SABOR QUE ENAMORA • CALIDAD QUE SORPRENDE • ";
+export const marqueeItems = [
+    {
+        image: "/agregados/papas_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/pizza/pizza_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/agregados/papas_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/pizza/pizza_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/agregados/papas_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/pizza/pizza_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/agregados/papas_1.png",
+        label: "Papas Fritas",
+    },
+    {
+        image: "/pizza/pizza_1.png",
+        label: "Papas Fritas",
+    },
+];

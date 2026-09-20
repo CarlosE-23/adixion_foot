@@ -2,16 +2,16 @@
 
 import { Menu } from "lucide-react";
 import { useNavbar } from "@/hooks";
-import { navItems, logo } from "@/components/Navbar";
-import { NavbarLogo } from "@/components/Navbar/NavbarLogo";
-import { NavbarNavLink } from "@/components/Navbar/NavbarNavLink";
-import { NavbarOverlay } from "@/components/Navbar/NavbarOverlay";
-import { NavbarMobileMenu } from "@/components/Navbar/NavbarMobileMenu";
+import { navItems, logo } from "./Navbar.data";
+import { NavbarLogo } from "./NavbarLogo";
+import { NavbarNavLink } from "./NavbarNavLink";
+import { NavbarOverlay } from "./NavbarOverlay";
+import { NavbarMobileMenu } from "./NavbarMobileMenu";
 import { cn } from "@/utils";
-import type { NavbarMenuProps } from "./NavbarMenu.types";
+import type { NavbarProps } from "./Navbar.types";
 import Image from "next/image";
 
-export function NavbarMenu({ className }: NavbarMenuProps) {
+export function Navbar({ className }: NavbarProps) {
     const {
         isAtTop,
         isNavbarVisible,
@@ -24,8 +24,8 @@ export function NavbarMenu({ className }: NavbarMenuProps) {
         <>
             <div
                 className={cn(
-                    "fixed top-0 left-0 right-0  transition-all duration-500 ease-in-out bg-background-alt",
-                    isAtTop ? "pt-2 z-800" : "pt-0 z-950",
+                    "z-950 fixed top-0 left-0 right-0  transition-all duration-500 ease-in-out bg-background-alt",
+                    isAtTop ? "pt-2  bg-transparent" : "pt-0",
                     !isNavbarVisible && !isAtTop
                         ? "-translate-y-full opacity-0"
                         : "translate-y-0 opacity-100",
@@ -35,11 +35,14 @@ export function NavbarMenu({ className }: NavbarMenuProps) {
                 <div className="relative">
                     {/* background */}
                     <Image
-                        src="/navbar_background_2.png"
+                        src="/shape_divider_1.png"
                         alt="fondo de la barra de busqueda"
                         height={200}
                         width={1280}
-                        className="rotate-180 absolute top-99/100 left-0 w-full h-full"
+                        className={cn(
+                            "transition-all duration-500 rotate-180 absolute top-99/100 left-0 w-full h-full fill",
+                            isAtTop && "opacity-0",
+                        )}
                     />
 
                     <div className="relative  px-4 flex items-center md:p-1 gap-25">

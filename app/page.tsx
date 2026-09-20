@@ -7,14 +7,20 @@ import { Testimonials } from "./components/Testimonials";
 import { Footer } from "../components/Footer";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { FrequentlyAskedQuestions } from "./components/FrequentlyAskedQuestions";
-import { NavbarHome } from "./components/NavbarHome";
-
+import Image from "next/image";
 export default function Home() {
     return (
         <>
-            <main className="flex-1">
-                <NavbarHome />
-                <Hero />
+            <Hero />
+            <main className="flex-1 relative z-10 -translate-y-10">
+                <Image
+                    src="/shape_divider_2.png"
+                    alt="fondo de la barra de busqueda"
+                    height={10000}
+                    width={1280}
+                    className="absolute z-2 bottom-99/100 translate-y-1 left-0 w-full h-38 fill"
+                />
+
                 <Marquee />
                 <About />
                 <FeaturedProducts />

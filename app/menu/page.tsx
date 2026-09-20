@@ -6,7 +6,6 @@ import { MenuCategories, categories } from "./components/MenuCategories";
 import { MenuItemCard, menuItems } from "./components/MenuItemCard";
 import { Footer } from "../../components/Footer";
 import { WhatsAppButton } from "../../components/WhatsAppButton";
-import { NavbarMenu } from "./components/NavbarMenu";
 
 export default function MenuPage() {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -38,7 +37,6 @@ export default function MenuPage() {
         <>
             <MenuHero />
 
-            <NavbarMenu />
             <main className="flex-1 rounded-[2.8rem] -translate-y-12 bg-background">
                 <MenuCategories
                     categories={categories}

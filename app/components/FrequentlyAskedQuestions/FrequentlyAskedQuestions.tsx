@@ -66,7 +66,7 @@ export function FrequentlyAskedQuestions() {
                         {/* Decorative chicken image */}
                         <div className="relative hidden xl:block">
                             <Image
-                                src="/perro_caliente_3.png"
+                                src="/perro_caliente/perro_caliente_3.png"
                                 alt="Pieza de perro caliente decorativa"
                                 width={620}
                                 height={220}
@@ -74,7 +74,7 @@ export function FrequentlyAskedQuestions() {
                                 className="relative transition-all duration-700 rotate-10 scale-x-[-1] translate-x-30"
                             />
                             <Image
-                                src="/pollo_3.png"
+                                src="/pollo/pollo_3.png"
                                 alt="Pieza de pollo frito decorativa"
                                 width={620}
                                 height={220}

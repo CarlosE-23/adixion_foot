@@ -23,14 +23,14 @@ export function FoodShowcase() {
     return (
         <div
             ref={ref}
-            className="relative w-full h-125 flex items-center justify-center z-10"
+            className="relative w-full h-40 lg:h-125 flex items-center justify-center z-10"
         >
             <Image
                 src="/hamburguesa/hamburguesa_1.png"
                 alt="Hamburguesa"
                 width={550}
                 height={550}
-                className="absolute w-90 md:w-125 object-contain z-20 translate-x-24 md:translate-x-50 -translate-y-26 md:translate-y-20 drop-shadow-2xl duration-500"
+                className="absolute hidden xl:block w-35 md:w-125 object-contain z-20 translate-x-24 md:translate-x-50 translate-y-36 duration-1200"
                 style={hamburguesaStyle}
             />
             <Image
@@ -38,7 +38,7 @@ export function FoodShowcase() {
                 alt="Perro caliente"
                 width={500}
                 height={500}
-                className="absolute w-80 md:w-125 z-10 translate-x-30 md:translate-x-36 translate-y-27 md:-translate-y-38 drop-shadow-2xl duration-500"
+                className="absolute top-0 w-55 md:w-125 z-10 translate-x-26 md:translate-x-50 translate-y-20 md:translate-y-0 xl:-translate-y-26 duration-1200"
                 style={perroCalienteStyle}
             />
             <Image
@@ -46,7 +46,7 @@ export function FoodShowcase() {
                 alt="Pollo frito"
                 width={580}
                 height={580}
-                className="absolute w-90 md:w-125 z-30 -translate-x-30 md:-translate-x-60 drop-shadow-2xl duration-500"
+                className="absolute md:top-0 xl:top-10 w-55 md:w-125 -translate-x-24 md:-translate-x-60 duration-1200"
                 style={polloStyle}
             />
         </div>
