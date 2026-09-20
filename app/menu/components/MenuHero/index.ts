@@ -1,2 +1,2 @@
 export { MenuHero } from "./MenuHero";
-export type { MenuHeaderProps } from "./MenuHero.types";
+export type { MenuHeroProps } from "./MenuHero.types";
