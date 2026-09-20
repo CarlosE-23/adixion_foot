@@ -20,7 +20,7 @@ export function ProductCard({ product, isLast }: ProductCardProps) {
                 />
             </div>
             <div className="bg-primary-100 px-5 py-4 h-[40%] flex flex-col justify-between">
-                <h3 className="text-primary-dark text-xl font-heading">
+                <h3 className="text-primary-dark text-xl font-heading font-thin">
                     {product.name}
                 </h3>
                 <div className="flex items-center justify-between mt-3">

@@ -35,7 +35,7 @@ export function Navbar({ className }: NavbarProps) {
                 <div className="relative">
                     {/* background */}
                     <Image
-                        src="/shape_divider_3.png"
+                        src="/shape_divider_1.png"
                         alt="fondo de la barra de busqueda"
                         height={200}
                         width={1280}

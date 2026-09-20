@@ -34,7 +34,7 @@ export function FeaturedProducts() {
     return (
         <section
             ref={refSection}
-            className="md:min-h-screen relative bg-primary rounded-[2.8rem] overflow-hidden mx-2 lg:mx-8"
+            className="md:min-h-screen xl:min-h-min relative bg-primary rounded-[2.8rem] overflow-hidden mx-2 lg:mx-8"
         >
             <div className="px-8 md:px-16 py-16 relative z-10">
                 {/* Header */}

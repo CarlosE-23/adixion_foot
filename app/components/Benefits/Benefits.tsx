@@ -6,7 +6,7 @@ import { cn } from "@/utils";
 
 export function Benefits() {
     return (
-        <section className="min-h-screen flex justify-center items-center relative bg-background overflow-hidden">
+        <section className="min-h-screen xl:min-h-min flex justify-center items-center relative bg-background overflow-hidden">
             {/* Font */}
             <Image
                 src="/benefits_background.png"
@@ -26,7 +26,7 @@ export function Benefits() {
             />
 
             <div className="w-full mx-auto px-4 sm:px-6 lg:px-16 py-16 lg:py-24 relative z-10 justify-center">
-                <div className="grid lg:grid-cols-[3.5fr_2fr] gap-12 lg:gap-16 items-center">
+                <div className="grid lg:grid-cols-[3fr_2fr] 2xl:grid-cols-[3.5fr_2fr] gap-12 lg:gap-16 items-center">
                     {/* Left column - Promo composition */}
                     <div className="relative w-full flex justify-center items-center h-full">
                         <Image
@@ -46,8 +46,8 @@ export function Benefits() {
                     </div>
 
                     {/* Right column - Benefits panel */}
-                    <div className="bg-primary-50 border-4 border-primary rounded-[2.8rem] p-4 lg:p-18 lg:px-8 shadow-solid">
-                        <div className="flex flex-col gap-4 lg:gap-14">
+                    <div className="bg-primary-50 border-4 border-primary rounded-[2.8rem] p-4 lg:p-10 2xl:p-18 2xl:px-8 shadow-solid">
+                        <div className="flex flex-col gap-4 lg:gap-4 2xl:gap-14">
                             {benefits.map((benefit) => {
                                 return (
                                     <div

@@ -9,7 +9,7 @@ export function Testimonials() {
         useCarousel(testimonials.length);
 
     return (
-        <section className="min-h-screen relative bg-background-alt overflow-hidden py-20 md:py-28">
+        <section className="min-h-screen xl:min-h-min relative bg-background-alt overflow-hidden py-20 md:py-28">
             {/* Wave / curved beige top */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180">
                 <svg

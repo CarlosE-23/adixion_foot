@@ -30,7 +30,7 @@ export function FoodShowcase() {
                 alt="Hamburguesa"
                 width={550}
                 height={550}
-                className="absolute hidden xl:block w-35 md:w-125 object-contain z-20 translate-x-24 md:translate-x-50 translate-y-36 duration-1200"
+                className="absolute hidden xl:block w-35 lg:w-80 2xl:w-125 object-contain z-20 translate-x-24 lg:translate-x-28 2xl:translate-x-50 translate-y-36 duration-1200"
                 style={hamburguesaStyle}
             />
             <Image
@@ -38,7 +38,7 @@ export function FoodShowcase() {
                 alt="Perro caliente"
                 width={500}
                 height={500}
-                className="absolute top-0 w-55 md:w-125 z-10 translate-x-26 md:translate-x-50 translate-y-20 md:translate-y-0 xl:-translate-y-26 duration-1200"
+                className="absolute top-0 w-55 lg:w-80 2xl:w-125 z-10 translate-x-26 lg:translate-x-20 2xl:translate-x-50 translate-y-20 lg:-translate-y-10 2xl:translate-y-0 duration-1200"
                 style={perroCalienteStyle}
             />
             <Image
@@ -46,7 +46,7 @@ export function FoodShowcase() {
                 alt="Pollo frito"
                 width={580}
                 height={580}
-                className="absolute md:top-0 xl:top-10 w-55 md:w-125 -translate-x-24 md:-translate-x-60 duration-1200"
+                className="absolute md:top-0  lg:top-25 2xl:top-10 w-55 lg:w-80 2xl:w-125 -translate-x-24 lg:-translate-x-35 2xl:-translate-x-60 duration-1200"
                 style={polloStyle}
             />
         </div>

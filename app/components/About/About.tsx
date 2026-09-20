@@ -2,7 +2,7 @@ import { FoodShowcase } from "./FoodShowcase";
 
 export function About() {
     return (
-        <section className="overflow-hidden min-h-screen flex flex-col-reverse xl:flex-row justify-center items-center px-4 lg:px-8">
+        <section className="overflow-hidden flex flex-col-reverse xl:flex-row justify-center items-center py-26 px-4 lg:px-8">
             <div className="w-full">
                 <FoodShowcase />
             </div>
